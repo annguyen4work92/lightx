@@ -14,7 +14,8 @@
     "plugin:jest/recommended",
     "plugin:sonarjs/recommended",
     "plugin:@typescript-eslint/recommended",
-    "plugin:@typescript-eslint/recommended-requiring-type-checking"
+    "plugin:@typescript-eslint/recommended-requiring-type-checking",
+    "@typescript-eslint/parser"
   ],
   "ignorePatterns": ["**/node_modules/**", "dist/**", "src/entity/**"],
   "rules": { // These rules are for reference only.
