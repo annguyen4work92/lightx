@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App snapshot 1`] = `
+<div
+  className="layout-wrapper"
+>
+  <div
+    className="header-wrapper"
+  >
+    Here is the header overrided
+  </div>
+  <div
+    className="sidbar-wrapper"
+  >
+    Bo may la sidebar
+  </div>
+  <div
+    className="content-wrapper"
+  >
+    <button>
+      Hehes
+    </button>
+    <input
+      data-testid="testid"
+      id="hihi"
+    />
+    <input
+      data-testid="disabled-input"
+      disabled={true}
+      id="disabled-input"
+    />
+    {"userId":1,"id":1,"title":"delectus aut autem","completed":false}
+  </div>
+  <div
+    className="footer-wrapper"
+  >
+    I am footer
+  </div>
+</div>
+`;
+
+exports[`App snapshot 2`] = `
+Object {
+  "completed": false,
+  "id": 1,
+  "title": "delectus aut autem",
+  "userId": 1,
+}
+`;
